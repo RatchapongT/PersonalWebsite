@@ -113,8 +113,7 @@ jQuery(document).ready(function ($) {
      Slideshow Images on Intro
      =============================================== */
     $("#home").backstretch([
-        "img/img1.jpg",
-        "img/img2.jpg"
+        "img/background.jpg",
     ], {
         fade: 750,
         duration: 6000
