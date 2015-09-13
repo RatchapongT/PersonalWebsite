@@ -45,7 +45,7 @@ body {
 }
 
 html {
-    background: url('/img/firstwebsite/City.PNG') no-repeat center center fixed;
+    background: url('/img/firstwebsite/City.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ table.center {
     font-family: Marker;
     padding: 2cm 3cm 2cm 3cm;
     background-size: 200px 150px;
-    background: url('/img/firstwebsite/CommentPin.PNG');
+    background: url('/img/firstwebsite/CommentPin.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -69,7 +69,7 @@ div.note {
     font-family: Classic;
     font-size: 20px;
     padding: 1cm 2cm 3cm 2cm;
-    background: url('/img/firstwebsite/AboutMe1.PNG');
+    background: url('/img/firstwebsite/AboutMe1.png');
     background-size: 600px 1200px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -102,7 +102,7 @@ div.content {
 }
 
 #ClearButton {
-    background: url(/img/firstwebsite/Delete.PNG) no-repeat;
+    background: url(/img/firstwebsite/Delete.png) no-repeat;
     cursor: pointer;
     width: 50px;
     height: 25px;
@@ -111,7 +111,7 @@ div.content {
 }
 
 #SubmitButton {
-    background: url(/img/firstwebsite/Tick.PNG) no-repeat;
+    background: url(/img/firstwebsite/Tick.png) no-repeat;
     cursor: pointer;
     width: 50px;
     height: 25px;
