@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'Ratchapong'});
+    res.render('index', {title: 'Ratchapong Website'});
 });
 
 
@@ -11,6 +11,15 @@ router.get('/download/:filename', function (req, res) {
     var file = __dirname + '/documents/' + req.params.filename;
     res.download(file); // Set disposition and send it.
 });
+
+router.get('/projects', function (req, res, next) {
+    res.redirect('/#portfolio', {title: 'Ratchapong Website'});
+});
+
+router.get('/home', function (req, res, next) {
+    res.redirect('/#home', {title: 'Ratchapong Website'});
+});
+
 
 router.get('/projects/firstwebsite/', function (req, res, next) {
     res.render('firstwebsite/index', {title: 'My First Website!'});
