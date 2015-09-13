@@ -11,4 +11,17 @@ router.get('/download/:filename', function (req, res) {
     res.download(file); // Set disposition and send it.
 });
 
+router.get('/projects/firstwebsite/', function (req, res, next) {
+    res.render('firstwebsite/index', {title: 'My First Website!'});
+});
+
+
+router.get('/projects/firstwebsite/mailform', function (req, res, next) {
+    res.render('firstwebsite/mailform', {title: 'My First Website!'});
+});
+
+router.post('/projects/firstwebsite/thankyou', function (req, res, next) {
+    res.render('firstwebsite/thankyou', {title: 'My First Website!'});
+});
+
 module.exports = router;

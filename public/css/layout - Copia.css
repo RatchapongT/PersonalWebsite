@@ -807,6 +807,7 @@ h4.chart-title{
 	text-transform:uppercase;
 	font-size:1.2rem;
 }
+
 .chart canvas {
   position: absolute;
   top: 0;
@@ -830,10 +831,6 @@ h4.chart-title{
 .angular .chart {
   margin-top: 0;
 }
-
-
-
-
 
 /* ==============================================
 	Form Elements
