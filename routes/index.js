@@ -3,12 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'Express'});
+    res.render('index', {title: 'Ratchapong'});
 });
 
-router.get('/home', function (req, res, next) {
-    res.render('index', {title: 'Express'});
-});
 
 router.get('/download/:filename', function (req, res) {
     var file = __dirname + '/documents/' + req.params.filename;
@@ -26,6 +23,10 @@ router.get('/projects/firstwebsite/mailform', function (req, res, next) {
 
 router.get('/projects/matlabship', function (req, res, next) {
     res.render('projects/matlabship', {title: 'MATLAB Pirate Ship'});
+});
+
+router.get('/projects/findgeorge', function (req, res, next) {
+    res.render('projects/findgeorge', {title: 'Find George'});
 });
 
 router.post('/projects/firstwebsite/thankyou', function (req, res, next) {
