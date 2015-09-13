@@ -13,11 +13,11 @@ router.get('/download/:filename', function (req, res) {
 });
 
 router.get('/projects', function (req, res, next) {
-    res.redirect('/#portfolio', {title: 'Ratchapong Website'});
+    return res.redirect('/#portfolio', {title: 'Ratchapong Website'});
 });
 
 router.get('/home', function (req, res, next) {
-    res.redirect('/#home', {title: 'Ratchapong Website'});
+    return res.redirect('/#home', {title: 'Ratchapong Website'});
 });
 
 
