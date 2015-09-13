@@ -38,6 +38,10 @@ router.get('/projects/findgeorge', function (req, res, next) {
     res.render('projects/findgeorge', {title: 'Find George'});
 });
 
+router.get('/projects/angrymonkey', function (req, res, next) {
+    res.render('projects/angrymonkey', {title: 'Angry Monkey'});
+});
+
 router.post('/projects/firstwebsite/thankyou', function (req, res, next) {
     res.render('firstwebsite/thankyou', {title: 'My First Website!'});
 });
