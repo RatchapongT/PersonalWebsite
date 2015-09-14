@@ -38,12 +38,26 @@ router.get('/projects/findgeorge', function (req, res, next) {
     res.render('projects/findgeorge', {title: 'Find George'});
 });
 
+router.get('/projects/trainlab', function (req, res, next) {
+    res.render('projects/trainlab', {title: 'Train Lab'});
+});
+
 router.get('/projects/angrymonkey', function (req, res, next) {
     res.render('projects/angrymonkey', {title: 'Angry Monkey'});
+});
+
+router.get('/projects/gameofthrones', function (req, res, next) {
+    res.render('projects/gameofthrones', {title: 'Game of Thrones'});
 });
 
 router.post('/projects/firstwebsite/thankyou', function (req, res, next) {
     res.render('firstwebsite/thankyou', {title: 'My First Website!'});
 });
 
+router.get('/projects/indoornavigation', function (req, res, next) {
+    res.render('projects/indoornavigation', {
+        title: 'Indoor Navigation' +
+        ' Prototype'
+    });
+});
 module.exports = router;
